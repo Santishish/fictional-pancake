@@ -7,7 +7,7 @@ import {Container} from "semantic-ui-react";
 // Components
 import EventDetailedPage from "../../features/event/EventDetailed/EventDetailedPage";
 import PeopleDashboard from "../../features/user/PeopleDashboard/PeopleDashboard";
-import UserDetailed from "../../features/user/UserDetailed/UserDetailed";
+import UserDetailedPage from "../../features/user/UserDetailed/UserDetailedPage";
 import SettingsDashboard from "../../features/user/Settings/SettingsDashboard";
 import EventForm from "../../features/event/EventForm/EventForm";
 import HomePage from "../../features/home/HomePage";
@@ -31,7 +31,7 @@ class App extends Component {
                                 <Route path="/event/:id" component={EventDetailedPage}/>
                                 <Route path="/manage/:id" component={EventForm}/>
                                 <Route path="/people" component={PeopleDashboard}/>
-                                <Route path="/profile/:id" component={UserDetailed}/>
+                                <Route path="/profile/:id" component={UserDetailedPage}/>
                                 <Route path="/settings" component={SettingsDashboard}/>
                                 <Route path="/createEvent" component={EventForm}/>
                             </Switch>

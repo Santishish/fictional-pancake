@@ -157,7 +157,6 @@ const mapStateToProps = (state) => ({
     auth: state.firebase.auth,
     profile: state.firebase.profile,
     photos: state.firestore.ordered.photos,
-    loading: state.asyncRed.loading
 });
 
 const mapDispatchToProps = {
