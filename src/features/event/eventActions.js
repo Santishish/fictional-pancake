@@ -1,6 +1,8 @@
 import {toastr} from 'react-redux-toastr';
 import {createNewEvent} from "../../app/common/util/helpers";
 import moment from "moment";
+import firebase from "../../app/config/firebase";
+import {FETCH_EVENTS} from './eventConstants';
 
 export const createEvent = (event) => {
     return async (dispatch, getState, {getFirestore}) => {
@@ -44,12 +46,44 @@ export const cancelToggle = (cancelled, eventId) =>
         const message = cancelled ? 'Are you sure you want to cancel the event?' : 'This will reactivate the event - are you sure?';
         try {
             toastr.confirm(message, {
-                    onOk: () => firestore.update(`events/${eventId}`, {
-                        cancelled
-                    })
-                });
+                onOk: () => firestore.update(`events/${eventId}`, {
+                    cancelled
+                })
+            });
 
         } catch (e) {
             console.log(e);
+        }
+    };
+
+export const getEventsForDashboard = (lastEvent) =>
+    async (dispatch, getState) => {
+        let today = new Date(Date.now());
+        const firestore = firebase.firestore();
+
+        const eventsRef = firestore.collection('events');
+        try {
+            let startAfter = lastEvent && await firestore.collection('events').doc(lastEvent.id).get();
+            let query;
+
+            lastEvent
+                ? (query = eventsRef
+                    .where('date', '>=', today)
+                    .orderBy('date').startAfter(startAfter).limit(2))
+                : (query = eventsRef
+                    .where('date', '>=', today)
+                    .orderBy('date').limit(2));
+
+            let querySnap = await query.get();
+            if (querySnap.docs.length === 0) return querySnap;
+            let events = [];
+            for (let i = 0; i < querySnap.docs.length; i++) {
+                let evt = {...querySnap.docs[i].data(), id: querySnap.docs[i].id};
+                events.push(evt);
+            }
+            dispatch({type: FETCH_EVENTS, payload: {events}});
+            return querySnap;
+        } catch (e) {
+            console.error(e);
         }
     };

@@ -10,11 +10,36 @@ import UserDetailedEvents from "./UserDetailedEvents";
 import UserDetailedPhotos from "./UserDetailedPhotos";
 import {userDetailedQuery} from "../userQueries";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
+import {getUserEvents} from "../userActions";
 
 class UserDetailedPage extends Component {
 
+    state = {
+        loadedEvents: true
+    };
+
+    async componentDidMount() {
+        this.setState({
+            loadedEvents: false
+        });
+        await this.props.getUserEvents(this.props.userUid);
+        this.setState({
+            loadedEvents: true
+        });
+    }
+
+    changeTab = async(e, data) => {
+        this.setState({
+            loadedEvents: false
+        });
+        await this.props.getUserEvents(this.props.userUid, data.activeIndex);
+        this.setState({
+            loadedEvents: true
+        });
+    };
+
     render() {
-        const {profile, photos, auth, match, requesting} = this.props;
+        const {profile, photos, auth, match, requesting, events} = this.props;
         const isCurrentUser = auth.uid === match.params.id;
         const loading = Object.values(requesting).some(a => a === true);
 
@@ -26,7 +51,7 @@ class UserDetailedPage extends Component {
                 <UserDetailedSidebar isCurrentUser={isCurrentUser}/>
                 {photos && photos.length > 0 &&
                 <UserDetailedPhotos photos={photos}/>}
-                <UserDetailedEvents/>
+                <UserDetailedEvents loadedEvents={this.state.loadedEvents} events={events} changeTab={this.changeTab}/>
             </Grid>
 
         );
@@ -45,10 +70,17 @@ const mapStateToProps = (state, ownProps) => {
     return {
         profile,
         userUid,
+        events: state.events,
         auth: state.firebase.auth,
         photos: state.firestore.ordered.photos,
         requesting: state.firestore.status.requesting
     }
 };
 
-export default compose(connect(mapStateToProps), firestoreConnect((auth, userUid) => userDetailedQuery(auth, userUid)))(UserDetailedPage);
+const mapDispatchToProps = {
+    getUserEvents
+};
+
+export default compose(
+    connect(mapStateToProps, mapDispatchToProps),
+    firestoreConnect((auth, userUid) => userDetailedQuery(auth, userUid)))(UserDetailedPage);

@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc21a19-eaf6-4a82-9315-39e0272b74ad" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/common/util/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/user/userQueries.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedSidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/event/EventList/EventList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventList/EventList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventList/EventListAttendee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventList/EventListAttendee.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventList/EventListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventList/EventListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/event/eventActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/eventActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/event/eventConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/eventConstants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/event/eventReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/eventReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedEvents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPhotos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPhotos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedSidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/user/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/userActions.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,25 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserDetailedPhotos.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPhotos.js">
+      <file leaf-file-name="userActions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/user/userActions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+            <state relative-caret-position="126">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventDashboard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,9 +40,21 @@
         <entry file="file://$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
-              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDetailedEvents.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedEvents.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,6 +74,7 @@
       <find>events</find>
       <find>date</find>
       <find>auth</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/features/modals/LoginModal.js" />
         <option value="$PROJECT_DIR$/src/features/modals/ModalManager.js" />
         <option value="$PROJECT_DIR$/src/features/modals/RegisterModal.js" />
         <option value="$PROJECT_DIR$/src/features/nav/Menus/SignedOutMenu.js" />
@@ -126,11 +117,9 @@
         <option value="$PROJECT_DIR$/src/features/nav/NavBar/NavBar.js" />
         <option value="$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js" />
         <option value="$PROJECT_DIR$/src/features/nav/Menus/SignedInMenu.js" />
-        <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedEvents.js" />
         <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedHeader.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedDescription.js" />
-        <option value="$PROJECT_DIR$/src/features/event/eventReducer.js" />
         <option value="$PROJECT_DIR$/src/app/common/util/helpers.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedInfo.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" />
@@ -139,13 +128,16 @@
         <option value="$PROJECT_DIR$/src/features/event/EventList/EventListAttendee.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedSidebar.js" />
         <option value="$PROJECT_DIR$/src/features/user/userQueries.js" />
-        <option value="$PROJECT_DIR$/src/features/user/userActions.js" />
         <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedSidebar.js" />
+        <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPhotos.js" />
+        <option value="$PROJECT_DIR$/src/features/event/eventConstants.js" />
+        <option value="$PROJECT_DIR$/src/features/event/eventReducer.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventList/EventListItem.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventList/EventList.js" />
-        <option value="$PROJECT_DIR$/src/features/event/eventActions.js" />
-        <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPhotos.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.js" />
+        <option value="$PROJECT_DIR$/src/features/event/eventActions.js" />
+        <option value="$PROJECT_DIR$/src/features/user/userActions.js" />
+        <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedEvents.js" />
         <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPage.js" />
       </list>
     </option>
@@ -182,12 +174,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="categoryImages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
@@ -225,13 +236,27 @@
               <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="Settings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +326,11 @@
       <workItem from="1530034913894" duration="8378000" />
       <workItem from="1530151526520" duration="2798000" />
       <workItem from="1530334559900" duration="597000" />
-      <workItem from="1530377267486" duration="19766000" />
+      <workItem from="1530377267486" duration="20113000" />
+      <workItem from="1530498195402" duration="2478000" />
+      <workItem from="1530663794819" duration="1461000" />
+      <workItem from="1530743267941" duration="16943000" />
+      <workItem from="1530816541727" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1526945174448</created>
@@ -401,17 +430,23 @@
       <option name="project" value="LOCAL" />
       <updated>1530058198062</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="End of Section 19">
+      <created>1530424746710</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1530424746710</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152236000" />
+    <option name="totallyTimeSpent" value="176738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -422,6 +457,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49702382" visible="true" weight="0.32838285" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,11 +473,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
@@ -477,66 +513,15 @@
     <MESSAGE value="End of Section 16" />
     <MESSAGE value="End of Section 17" />
     <MESSAGE value="End of Section 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of Section 18" />
+    <MESSAGE value="End of Section 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of Section 19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/features/user/Settings/SettingsDashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="125" selection-start-line="21" selection-start-column="125" selection-end-line="21" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/user/Settings/AboutPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="74" column="96" selection-start-line="74" selection-start-column="96" selection-end-line="74" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/user/Settings/BasicPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/cropperjs/dist/cropper.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/regenerator-runtime/runtime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/redux-firestore/es/utils/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/redux-firestore/es/actions/firestore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/lodash/isString.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -631,20 +616,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/async/asyncActions.js" />
-    <entry file="file://$PROJECT_DIR$/src/features/nav/Menus/SignedInMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedEvents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -666,20 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="180" column="41" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/nav/NavBar/NavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/layout/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -687,20 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/event/eventReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/reducers/rootReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="37" column="77" lean-forward="true" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,10 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#18#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,9 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="37" column="83" selection-start-line="37" selection-start-column="83" selection-end-line="37" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -760,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -770,23 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/user/userQueries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/user/userActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -797,51 +714,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPhotos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/event/eventConstants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/event/eventReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="62" selection-start-column="62" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/event/EventList/EventListItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="14">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/userQueries.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/event/EventList/EventList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/features/event/eventActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="303">
+          <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPhotos.js">
+    <entry file="file://$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        <state relative-caret-position="196">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/auth/Login/LoginForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.js">
+    <entry file="file://$PROJECT_DIR$/src/features/auth/SocialLogin/SocialLogin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/home/HomePage.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/modals/LoginModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/nav/NavBar/NavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/nav/Menus/SignedInMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/nav/Menus/SignedOutMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/PeopleDashboard/PeopleDashboard.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/Settings/BasicPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="180" column="41" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/userActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedEvents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -849,7 +871,7 @@
     <entry file="file://$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
