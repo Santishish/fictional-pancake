@@ -14,7 +14,8 @@ class EventDashboard extends Component {
         loading: true,
         moreEvents: false,
         loadedEvents: [],
-        loadingMoreEvents: false
+        loadingMoreEvents: false,
+        contextRef: {}
     };
 
     async componentDidMount() {
@@ -47,17 +48,27 @@ class EventDashboard extends Component {
         }
     };
 
+    handleContextRef = (contextRef) => {
+        this.setState({
+            contextRef
+        });
+    };
+
     render() {
-        const {moreEvents, loadedEvents, loading} = this.state;
+        const {activities} = this.props;
+        const {moreEvents, loadedEvents, loading, contextRef} = this.state;
         if (loading) return <LoadingComponent inverted/>;
         return (
             <Grid>
                 <Grid.Column width={10}>
-                    <EventList
-                        events={loadedEvents} getNextEvents={this.getNextEvents} loading={this.state.loading} moreEvents={moreEvents}/>
+                    <div ref={this.handleContextRef}>
+                        <EventList
+                            events={loadedEvents} getNextEvents={this.getNextEvents} loading={this.state.loading}
+                            moreEvents={moreEvents}/>
+                    </div>
                 </Grid.Column>
                 <Grid.Column width={6}>
-                    <EventActivity/>
+                    <EventActivity activities={activities} contextRef={contextRef}/>
                 </Grid.Column>
                 <Grid.Column width={10}>
                     <Loader active={this.state.loadingMoreEvents}/>
@@ -68,11 +79,20 @@ class EventDashboard extends Component {
 }
 
 const mapStateToProps = (state) => ({
-    events: state.events
+    events: state.events,
+    activities: state.firestore.ordered.activity
 });
 
 const mapDispatchToProps = {
     getEventsForDashboard
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(firestoreConnect([{collection: 'events'}])(EventDashboard));
+const query = [
+    {
+        collection: 'activity',
+        orderBy: ['timestamp', 'desc'],
+        limit: 5
+    }
+];
+
+export default connect(mapStateToProps, mapDispatchToProps)(firestoreConnect(query)(EventDashboard));
