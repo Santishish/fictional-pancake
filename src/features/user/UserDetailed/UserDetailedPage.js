@@ -10,7 +10,7 @@ import UserDetailedEvents from "./UserDetailedEvents";
 import UserDetailedPhotos from "./UserDetailedPhotos";
 import {userDetailedQuery} from "../userQueries";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
-import {getUserEvents} from "../userActions";
+import {getUserEvents, followUser, unfollowUser} from "../userActions";
 
 class UserDetailedPage extends Component {
 
@@ -39,16 +39,17 @@ class UserDetailedPage extends Component {
     };
 
     render() {
-        const {profile, photos, auth, match, requesting, events} = this.props;
+        const {profile, photos, auth, match, requesting, events, followUser, following, unfollowUser} = this.props;
         const isCurrentUser = auth.uid === match.params.id;
         const loading = Object.values(requesting).some(a => a === true);
+        const isFollowing = !isEmpty(following);
 
         if (loading) return <LoadingComponent inverted/>;
         return (
             <Grid>
                 <UserDetailedHeader profile={profile}/>
                 <UserDetailedDescription profile={profile}/>
-                <UserDetailedSidebar isCurrentUser={isCurrentUser}/>
+                <UserDetailedSidebar profile={profile} followUser={followUser} unfollowUser={unfollowUser} isFollowing={isFollowing} isCurrentUser={isCurrentUser}/>
                 {photos && photos.length > 0 &&
                 <UserDetailedPhotos photos={photos}/>}
                 <UserDetailedEvents loadedEvents={this.state.loadedEvents} events={events} changeTab={this.changeTab}/>
@@ -73,14 +74,17 @@ const mapStateToProps = (state, ownProps) => {
         events: state.events,
         auth: state.firebase.auth,
         photos: state.firestore.ordered.photos,
-        requesting: state.firestore.status.requesting
+        requesting: state.firestore.status.requesting,
+        following: state.firestore.ordered.following
     }
 };
 
 const mapDispatchToProps = {
-    getUserEvents
+    getUserEvents,
+    followUser,
+    unfollowUser
 };
 
 export default compose(
     connect(mapStateToProps, mapDispatchToProps),
-    firestoreConnect((auth, userUid) => userDetailedQuery(auth, userUid)))(UserDetailedPage);
+    firestoreConnect((auth, userUid, match) => userDetailedQuery(auth, userUid, match)))(UserDetailedPage);
