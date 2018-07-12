@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc21a19-eaf6-4a82-9315-39e0272b74ad" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/features/auth/authWrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/modals/UnauthModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/eventActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/eventActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/user/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/userActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/modals/ModalManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/modals/ModalManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,38 +23,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="userActions.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/features/user/userActions.js">
+      <file leaf-file-name="authWrapper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/auth/authWrapper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+            <state relative-caret-position="140">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotosPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js">
+      <file leaf-file-name="UnauthModal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/modals/UnauthModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="171" column="26" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="26" />
+            <state relative-caret-position="308">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eventActions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/event/eventActions.js">
+      <file leaf-file-name="EventDetailedPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="294">
+              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventForm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/event/EventForm/EventForm.js">
+      <file leaf-file-name="EventDetailedHeader.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="143" column="18" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+            <state relative-caret-position="126">
+              <caret line="54" column="101" selection-start-line="54" selection-start-column="101" selection-end-line="54" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/layout/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding>
+                <element signature="e#284#369#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,10 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/layout/LoadingComponent.js" />
-        <option value="$PROJECT_DIR$/src/app/common/util/ScrollToTop.js" />
-        <option value="$PROJECT_DIR$/src/app/config/firebase.js" />
-        <option value="$PROJECT_DIR$/src/features/auth/Register/RegisterForm.js" />
         <option value="$PROJECT_DIR$/src/features/auth/Login/LoginForm.js" />
         <option value="$PROJECT_DIR$/src/features/auth/SocialLogin/SocialLogin.js" />
         <option value="$PROJECT_DIR$/src/app/store/configureStore.js" />
@@ -108,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedDescription.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedInfo.js" />
-        <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedHeader.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventList/EventListAttendee.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedSidebar.js" />
         <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPhotos.js" />
@@ -117,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/features/event/EventList/EventList.js" />
         <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedEvents.js" />
         <option value="$PROJECT_DIR$/src/app/common/util/helpers.js" />
-        <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedChat.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedChatForm.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -131,10 +150,16 @@
         <option value="$PROJECT_DIR$/src/features/user/PeopleDashboard/PeopleDashboard.js" />
         <option value="$PROJECT_DIR$/src/features/user/PeopleDashboard/PersonCard.js" />
         <option value="$PROJECT_DIR$/src/features/user/UserDetailed/UserDetailedPage.js" />
-        <option value="$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js" />
         <option value="$PROJECT_DIR$/src/features/event/eventActions.js" />
         <option value="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" />
         <option value="$PROJECT_DIR$/src/features/user/userActions.js" />
+        <option value="$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js" />
+        <option value="$PROJECT_DIR$/src/features/modals/ModalManager.js" />
+        <option value="$PROJECT_DIR$/src/features/auth/authWrapper.js" />
+        <option value="$PROJECT_DIR$/src/app/layout/App.js" />
+        <option value="$PROJECT_DIR$/src/features/modals/UnauthModal.js" />
+        <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js" />
+        <option value="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedHeader.js" />
       </list>
     </option>
   </component>
@@ -190,6 +215,20 @@
               <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firestore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="modals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-firestore" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +326,7 @@
       <workItem from="1531025166653" duration="2305000" />
       <workItem from="1531027765846" duration="2010000" />
       <workItem from="1531317825013" duration="795000" />
-      <workItem from="1531343687826" duration="4141000" />
+      <workItem from="1531343687826" duration="8187000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1526945174448</created>
@@ -422,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531029530762</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="End of Section 24">
+      <created>1531351147896</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1531351147897</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204327000" />
+    <option name="totallyTimeSpent" value="208373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -482,7 +528,8 @@
     <MESSAGE value="End of Section 21" />
     <MESSAGE value="End of Section 22" />
     <MESSAGE value="End of Section 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of Section 23" />
+    <MESSAGE value="End of Section 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of Section 24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -490,27 +537,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/lodash/_baseIndexOf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/lodash/_charsStartIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/lodash/trim.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/redux-firestore/es/utils/query.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3388">
@@ -549,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/layout/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/reducers/rootReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -574,13 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="184" column="16" selection-start-line="184" selection-start-column="16" selection-end-line="184" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -659,13 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="1045" column="2" selection-start-line="1045" selection-start-column="2" selection-end-line="1045" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -781,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="171" column="26" selection-start-line="171" selection-start-column="26" selection-end-line="171" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/event/eventActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
@@ -802,10 +800,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/user/Settings/PhotosPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/user/userActions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+        <state relative-caret-position="233">
+          <caret line="116" column="27" lean-forward="true" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/modals/ModalManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/layout/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#284#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/auth/authWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/modals/UnauthModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="54" column="101" selection-start-line="54" selection-start-column="101" selection-end-line="54" selection-end-column="101" />
         </state>
       </provider>
     </entry>
