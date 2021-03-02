@@ -1712,7 +1712,7 @@ compressible@~2.0.13:
 
 compression@^1.5.2:
   version "1.7.2"
-  resolved "http://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
+  resolved "https://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
   dependencies:
     accepts "~1.3.4"
     bytes "3.0.0"
@@ -2638,6 +2638,13 @@ event-emitter@~0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
+event@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/event/-/event-1.0.0.tgz#b51232b67ad4e0fe38c4a8cbaff2ff8685278ce3"
+  dependencies:
+    method "~1.0.0"
+    reducible "~1.0.1"
+
 eventemitter3@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-1.2.0.tgz#1c86991d816ad1e504750e73874224ecf3bec508"
@@ -2649,10 +2656,6 @@ eventemitter3@^2.0.3:
 eventemitter3@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.0.tgz#090b4d6cdbd645ed10bf750d4b5407942d7ba163"
-
-events@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/event/-/event-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
 
 eventsource@0.1.6:
   version "0.1.6"
@@ -4663,6 +4666,14 @@ merge@^1.1.3:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
 
+method@~1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/method/-/method-1.0.2.tgz#291f8c29ee443847a2f8906f89fbaa372d4d0916"
+
+method@~2.0.x:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/method/-/method-2.0.0.tgz#e449848defa6daef10b8163d9d9aa2d071b7500f"
+
 methods@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
@@ -6155,6 +6166,12 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^0.4.2"
 
+reducible@~1.0.1:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/reducible/-/reducible-1.0.6.tgz#331722d14189f8f392dc9b88341aec603b25c35e"
+  dependencies:
+    method "~2.0.x"
+
 redux-auth-wrapper@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/redux-auth-wrapper/-/redux-auth-wrapper-2.0.2.tgz#3812056713b1a860cd914d920a07f515a71f715a"
@@ -7359,8 +7376,8 @@ uri-js@^4.2.1:
     punycode "^2.1.0"
 
 urijs@^1.16.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.1.tgz#5b0ff530c0cbde8386f6342235ba5ca6e995d25a"
+  version "1.19.6"
+  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.6.tgz#51f8cb17ca16faefb20b9a31ac60f84aa2b7c870"
 
 urix@^0.1.0:
   version "0.1.0"
